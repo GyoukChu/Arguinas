@@ -1,0 +1,111 @@
+## Defined Variables/Predicates
+[[DEFINITION]]
+
+## Formalized Premises
+[[PREMISES]]
+
+## Formalized Conclusion
+[[CONCLUSION]]
+
+## Deductive Proof
+[[PROOF]]
+
+First, determine necessary formalized premises for the given deductive proof. This includes:
+ 1. Add any missing formalized premises that are necessary to prove the conclusion but cannot be derived from the formalized premises.
+ 2. Keep all formalized premises that contribute to proving the conclusion through ANY valid reasoning path, even if there are multiple independent paths to the same conclusion. For example, if both "A, A→C" and "B, B→C" lead to the final conclusion C, keep all premises involved in both paths (A, A→C, B, B→C), not just one path (A, A→C).
+ 3. Remove only those formalized premises that are completely irrelevant and do not contribute to proving the conclusion through any reasoning path.
+You should format these premises into a python dictionary where keys and values are python strings.
+
+Second, write a python program using z3 that inputs the necessary formalized premises and formalized conclusion and outputs:
+ 1. Their validity, formatted as a python string of either "valid" or "invalid".
+ 2. All necessary formalized premises that appear in at least one minimal valid reasoning path (i.e., the union of all minimal sets), formatted as a python list of keys of the python dictionary of the necessary formalized premises.
+You should therefore print two things (a python string and a python list) separately. Please use the below python code snippet.
+```python
+from z3 import *
+import itertools
+
+#################################
+### Write down your code here ###
+#################################
+
+# Check validity of the argument
+def check_validity(premises_dict, conclusion, solver=None):
+    if solver is None:
+        s = Solver()
+    else:
+        s = solver
+        s.reset()
+    s.add(list(premises_dict.values()))
+    s.add(Not(conclusion))
+    if s.check() == unsat:
+        return "valid"
+    else:
+        return "invalid"
+
+# Find all minimal sets and return union of all premises
+def find_all_minimal_premises(premises_dict, conclusion):
+    """
+    Find all minimal valid subsets, then return the union of all premises
+    that appear in at least one minimal set.
+    """
+    minimal_sets = []
+    premise_keys = list(premises_dict.keys())
+    n = len(premise_keys)
+    
+    # Reuse solver for efficiency
+    solver = Solver()
+    
+    # Check all possible subset sizes from smallest to largest
+    for subset_size in range(1, n + 1):
+        for subset in itertools.combinations(premise_keys, subset_size):
+            subset_set = set(subset)
+            
+            # PRUNING: Skip if this is a superset of an already found minimal set
+            is_superset_of_minimal = any(
+                minimal_set.issubset(subset_set) 
+                for minimal_set in minimal_sets
+            )
+            
+            if is_superset_of_minimal:
+                continue
+            
+            subset_premises = {key: premises_dict[key] for key in subset}
+            
+            # Check if this subset is valid
+            if check_validity(subset_premises, conclusion, solver) == "valid":
+                # Since we go bottom-up and skip supersets of minimal sets,
+                # any valid set found here is automatically minimal
+                minimal_sets.append(subset_set)
+
+    # Return union of all premises in minimal sets
+    all_relevant_premises = set()
+    for minimal_set in minimal_sets:
+        all_relevant_premises.update(minimal_set)
+    
+    return sorted(list(all_relevant_premises))
+
+validity = check_validity(premises, conclusion)
+print(validity)
+minimal_premises = find_all_minimal_premises(premises, conclusion)
+print(minimal_premises)
+```
+
+Third, return the final formalized conclusion that is used in the python program in step 2.
+
+Your response format should be as follows.
+
+### Necessary Formalized Premises
+```python
+{
+    "[Symbol of a premise]": "[Formalization of a premise]",
+    ...
+}
+```
+
+### Python Program
+```python
+[a python program]
+```
+
+### Final Formalized Conclusion
+[Formalized conclusion in the python program]

@@ -1,0 +1,16 @@
+## Defined Variables/Predicates
+[[DEFINITION]]
+
+## Formalized Premises
+[[PREMISES]]
+
+## Formalized Conclusion
+[[CONCLUSION]]
+
+Given definitions of variables and/or predicates, generate natural language (NL) descriptions of formalized premises and conclusion. Your response format should be as follows. Provide only the natural language descriptions without including any propositional variables, logical symbols, or formulas, unless absolutely necessary.
+
+### NL Premises
+[list of premises in natural language]
+
+### NL Conclusion
+[conclusion in natural language]

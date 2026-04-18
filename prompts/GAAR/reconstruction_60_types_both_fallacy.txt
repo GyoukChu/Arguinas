@@ -1,0 +1,681 @@
+# Debate Topic
+[[Topic]]
+
+# Background
+[[Background]]
+
+# Argument
+[[ARG]]
+
+# Rationale of Formal Fallacy
+[[RATIONALE_FORMAL]]
+
+# Rationale of Informal Fallacy
+[[RATIONALE_INFORMAL]]
+
+You are given a debate topic, background information, an argument including both formal fallacy and informal fallacy from that debate topic, a rationale of the formal fallacy, and a rationale of the informal fallacy. First, identify what type(s) of reasoning this argument uses from the 60+2 types listed below. Note that the argument may contain multiple types of reasoning. Then reconstruct the argument with a premise-conclusion structure. If the debate topic has clear pro/con positions, determine the conclusion by taking either a positive or negative stance. Add implicit premises and intermediate conclusions if needed.
+
+## Reasoning Types
+
+1. Argument from Position to Know
+Major Premise: Source a is in position to know about things in a certain subject domain S containing proposition A.
+Minor Premise: a asserts that A is true (false).
+Conclusion: A is true (false).
+
+2. Argument from Expert Opinion
+Major Premise: Source E is an expert in subject domain S containing proposition A.
+Minor Premise: E asserts that proposition A is true (false).
+Conclusion: A is true (false).
+
+3. Argument from Witness Testimony
+Position to Know Premise: Witness W is in a position to know whether A is true or not.
+Truth Telling Premise: Witness W is telling the truth (as W knows it).
+Statement Premise: Witness W states that A is true (false).
+Conclusion: A may be plausibly taken to be true (false).
+
+4. Argument from Popular Opinion
+General Acceptance Premise: A is generally accepted as true.
+Presumption Premise: If A is generally accepted as true, that gives a reason in favor of A.
+Conclusion: There is a reason in favor of A.
+
+Subtypes of 4. Argument from Popular Opinion:
+4.1. Pop Scheme
+Premise: Everybody in a particular reference group G accepts (rejects) A.
+Conclusion: A is true (false)/or: you should accept (reject) A.
+
+4.2. Position-to-Know Ad Populum Argument
+Premise 1: Everybody in this group G accepts A.
+Premise 2: This group is in a special position to know that A is true.
+Conclusion: Therefore, A is (plausibly) true.
+
+4.3. Expert Opinion Ad Populum Argument
+Premise 1: Everybody in this group G accepts A.
+Premise 2: G is a group of experts in a domain of knowledge.
+Conclusion: Therefore, A is true.
+
+4.4. Deliberation Ad Populum Argument
+Premise 1: Everybody in group G accepts A.
+Premise 2: Group G has deliberated intelligently and extensively on whether to accept proposition A or not.
+Conclusion: Therefore, A is (plausibly) true.
+
+4.5. Moral Justification Ad Populum Argument
+Premise 1: Everybody who is good, or who represents a group G with good qualities, accepts policy P.
+Premise 2: Your goal is (or should be) to be a good person, or a member of a group with good qualities.
+Conclusion: Therefore, you should accept P.
+
+4.6. Moral Justification (Excuse Subtype) Ad Populum Argument
+Premise 1: Everybody in a group G does x (or accepts proposition A as a policy).
+Premise 2: Doing x (or accepting A) shows that x (or policy A) is an acceptable norm of conduct for G.
+Premise 3: I (the speaker) am a member of G.
+Conclusion: Therefore, my doing x (or accepting A) is morally justified as an acceptable action (or policy).
+
+4.7. Snob Appeal Ad Populum Argument
+Premise 1: Everybody in this group G accepts A (or has some property, or possesses some object).
+Premise 2: This group G is elite, that is, everyone who belongs to it has prestige.
+Premise 3: Prestige is an important goal for you (the respondent).
+Premise 4: If you accept A (acquire property P or buy object O), then you will be a member of the group G.
+Conclusion: Therefore, you ought to accept A (etc).
+
+4.8. Appeal to Vanity Ad Populum Argument
+Premise 1: Everybody in this group of admired (popular) people G accepts A (possesses P, etc.)
+Premise 2: If you carry out action x, then you will belong to this group G.
+Conclusion: Therefore, you should carry out action x.
+
+4.9. Rhetoric of Belonging Ad Populum Argument
+Premise 1: Everybody in this group G accepts A.
+Premise 2: Being a member of this group G is highly valued for you (the respondent).
+Premise 3: If you do not accept A, you will be out of this group G.
+Conclusion: Therefore, you should accept A.
+
+4.10. Common Folks Ad Populum Argument
+Premise: I (the speaker) am an ordinary person, that is, I share a common background with you (the audience).
+Conclusion: Therefore, you ought to take what I say as being more credible or acceptable.
+
+4.11. Common Folks (Group Subtype) Ad Populum Argument
+Premise 1: I (the speaker) am an ordinary person, that is, I share a common background with the members of this audience (group G).
+Premise 2: You (the respondent) are a member of this audience (group G).
+Conclusion: Therefore, you should accept what I say.
+
+5. Argument from Popular Practice
+Major Premise: A is a popular practice among those who are familiar with what is acceptable or not in regard to A.
+Minor Premise: If A is a popular practice among those familiar with what is acceptable or not with regard to A, that gives a reason to think that A is acceptable.
+Conclusion: Therefore, A is acceptable in this case.
+
+6. Argument from Example
+6.1. Argument from Example
+Premise: In this particular case, the individual a has property F and also property G.
+Conclusion: Therefore, generally, if x has property F, then it also has property G.
+
+6.2. Argument from Illustration
+Premise 1: Usually, if x has property F (belongs to class F), x has property G.
+Premise 2: In this case, k has property F and property G.
+Conclusion: The rule is valid.
+
+6.3. Argument from Model
+Premise 1: Individual P is prestigious for (admired by) individuals Qs.
+Premise 2: P carries out acts A.
+Premise 3: If P carries out A, A are worth being imitated by Qs.
+Conclusion: Qs should do A.
+
+6.4. Argument from Anti-Model
+Premise 1: Individual P is not prestigious for (not admired by) individuals Qs.
+Premise 2: P carries out acts A.
+Premise 3: Qs want to be different from P.
+Conclusion: Qs should not do A.
+
+7. Argument from Analogy
+Similarity Premise: Generally, case C1 is similar to case C2.
+Base Premise: A is true (false) in case C1.
+Conclusion: A is true (false) in case C2.
+
+8. Practical Reasoning from Analogy
+8.1. Positive Schema
+Base Premise: The right thing to do in S1 was to carry out action x.
+Similarity Premise: S2 is similar to S1.
+Conclusion: Therefore, the right thing to do in S2 is carry out x.
+8.2. Negative Schema
+Base Premise: The wrong thing to do in S1 was to carry out x.
+Similarity Premise: S2 is similar to S1.
+Conclusion: Therefore, the wrong thing to do in S2 is carry out x.
+
+9. Argument from Composition
+9.1. Generic Composition
+Premise: All the parts of X have property Y.
+Conclusion: Therefore, X has property Y.
+
+9.2. Inclusion of the Part in the Whole
+Premise 1: y is a species (part) of X.
+Premise 2: X is A.
+Conclusion: y is A (is less A than X, because it is a part of it; it is less A than X because it is a smaller part of it).
+
+10. Argument from Division
+10.1. Generic Division
+Premise: X has property Y.
+Conclusion: Therefore, all the parts of X have property Y.
+
+10.2. Division of the Whole into its Parts
+Premise 1: X is the whole of x1, x2, ... xn (x1, x2, ... xn are the parts of the whole X).
+Premise 2: Only if x1, or x2, or ... xn is A, X is A.
+Premise 3: x1 is A (no x is A).
+Conclusion: X is A (X is not A).
+
+11. Argument from Oppositions
+11.1. Descriptive Schemes
+Major Premise: If X presents the predicate P, X cannot present the contradictory (contrary, converse, incompatible) predicate P′ at the same time and in the same respect.
+Minor Premise: X presents P.
+Conclusion: X cannot present P′ at the same time and in the same respect.
+
+Major Premise: If X does not present the predicate P, X must present the contradictory predicate P′ at the same time and in the same respect.
+Minor Premise: X does not present P.
+Conclusion: X must present P′ at the same time and in the same respect.
+
+Major Premise: If X does not present the predicate P, X must present the complementary contrary predicate P′ at the same time and in the same respect.
+Minor Premise: X does not present P.
+Conclusion: X must present P′ at the same time and in the same respect.
+
+11.2. Normative Schemes
+Major Premise: If X receives the evaluation W, X cannot receive the opposite evaluation W′ at the same time and in the same respect.
+Minor Premise: X receives the evaluation W′.
+Conclusion: X cannot receive the evaluation W′ at the same time and in the same respect.
+
+
+12. Rhetorical Argument from Oppositions
+12.1. Normative Schemes
+Major Premise: If the treatment Y is required for the subject X, for the contrary subject X′ the contrary treatment Y′ is required.
+Minor Premise: The treatment Y is required for the subject X.
+Conclusion: The contrary treatment Y′ is required for the subject X′.
+
+12.2. Descriptive Schemes
+Major Premise: If X is in relation R with Y, Y can be in the converse relation R′ with X and contrariwise.
+Minor Premise: X is in relation R with Y.
+Conclusion: Y can be in the converse relation R′ with X.
+
+13. Argument from Alternatives
+13.1. Cognitive Schemes
+Major Premise: Either X or Y can be the case.
+Minor Premise: X is plausibly not the case.
+Conclusion: Y is plausibly the case.
+
+13.2. Normative Schemes
+Major Premise: Either X or Y can be required.
+Minor Premise: X is required.
+Conclusion: Y is not required.
+
+14. Argument from Verbal Classification
+Individual Premise: a has property F.
+Classification Premise: For all x, if x has property F, then x can be classified as having property G.
+Conclusion: a has property G.
+
+15. Argument from Definition to Verbal Classification
+Definition Premise: a fits definition D.
+Classification Premise: For all x, if a fits definition D, then x can be classified as having property G.
+Conclusion: a has property G.
+
+16. Argument from Vagueness of a Verbal Classification
+Premise 1: If an argument, α, occurs in a context of dialogue that requires a certain level of precision, but some property F that occurs in α is defined in a way that is too vague to meet the requirements of that level of precision, then α ought to be rejected as deficient.
+Premise 2: α occurs in a context of dialogue that requires a certain level of precision that is appropriate for that context.
+Premise 3: Some property F that occurs in α is defined in a way that is too vague to meet the requirement of the level of precision appropriate for the context.
+Conclusion: Therefore, α ought be rejected as deficient.
+
+17. Argument from Arbitrariness of a Verbal Classification
+Premise 1: If an argument, α, occurs in a context of dialogue that requires a certain level of nonarbitrary definition for a key property F that occurs in α, and if F is defined in an arbitrary way in α, then α ought to be rejected as deficient.
+Premise 2: α occurs in a context of dialogue that requires a nonarbitrary definition for a key property F that occurs in α.
+Premise 3: Some property F that occurs in α is defined in a way that is arbitrary.
+Conclusion: Therefore, α ought be rejected as deficient.
+
+18. Argumentation from Interaction of Act and Person
+18.1. Variant 1
+Premise 1: Person P has done acts A.
+Premise 2: To acts A is attributed the value V.
+Conclusion: Person P is V.
+
+18.2. Variant 2
+Premise 1: Person P is V1 (a judgment value).
+Premise 2: If a person is V1, his acts A will be (are, were) V2 (judgment value depending on V1).
+Conclusion: P's acts A will be (are, were) V2.
+
+19. Argumentation from Values
+19.1. Variant 1: Positive Value
+Premise 1: Value V is positive as judged by agent A (judgment value).
+Premise 2: The fact that value V is positive affects the interpretation and therefore the evaluation of goal G of agent A (if value V is good, it supports commitment to goal G).
+Conclusion: V is a reason for retaining commitment to goal G.
+
+19.2. Variant 2: Negative Value
+Premise 1: Value V is negative as judged by agent A (judgment value).
+Premise 2: The fact that value V is negative affects the interpretation and therefore the evaluation of goal G of agent A (if value V is bad, it goes against commitment to goal G).
+Conclusion: V is a reason for retracting commitment to goal G.
+
+20. Argumentation from Sacrifice
+Premise 1: For the thing x, sacrifice S is made.
+Premise 2: If a great sacrifice S has been made for x, then the value V of x will be greater (and vice versa).
+Premise 3: A great (small) sacrifice S has been made for x.
+Conclusion: x has a great (small) value V.
+
+21. Argumentation from the Group and Its Members
+21.1. Variant 1
+Premise 1: Member M of the group G has the quality Q.
+Premise 2: If M has Q, G will have Q as well.
+Conclusion: G has Q.
+
+21.2. Variant 2
+Premise 1: Group G has the quality Q.
+Premise 2: M is a member (idea, habit, custom, product, method) of G.
+Premise 3: If G has Q, its members M (ideas, habits, customs, products, methods) will have Q as well.
+Conclusion: M is Q.
+
+22. Practical Reasoning
+22.1. Practical Inference
+Major Premise: I have a goal G.
+Minor Premise: Carrying out this action A is a means to realize G.
+Conclusion: Therefore, I ought (practically speaking) to carry out this action A.
+
+22.2. Necessary Condition Schema
+Goal Premise: My goal is to bring about A.
+Alternatives Premise: I reasonably consider on the given information that bringing about at least one of [B0, B1, ..., Bn] is necessary to bring about A.
+Selection Premise: I have selected one member Bi as an acceptable, or as the most acceptable, necessary condition for A.
+Practicality Premise: Nothing unchangeable prevents me from bringing about Bi, as far as I know.
+Side Effects Premise: Bringing about A is more acceptable to me than not bringing about Bi.
+Conclusion: Therefore, it is required that I bring about Bi.
+
+22.3. Sufficient Condition Schema
+Goal Premise: My goal is to bring about A.
+Alternatives Premise: I reasonably consider on the given information that bringing about at least one of [B0, B1, ..., Bn] is necessary to bring about A.
+Selection Premise: I have selected one member Bi as an acceptable, or as the most acceptable, sufficient condition for A.
+Practicality Premise: Nothing unchangeable prevents me from bringing about Bi, as far as I know.
+Side Effects Premise: Bringing about A is more acceptable to me than not bringing about Bi.
+Conclusion: Therefore, it is required that I bring about Bi.
+
+22.4. Value-Based Practical Reasoning
+Premise 1: I have a goal G.
+Premise 2: G is supported by my set of values, V.
+Premise 3: Bringing about A is necessary (or sufficient) for me to bring about G.
+Conclusion: Therefore, I should (practically ought to) bring about A.
+
+22.5. Argument from Goal
+Major Premise: Doing act A contributes to goal G.
+Minor Premise: Person P has goal G.
+Conclusion: Therefore, person P should do act A.
+
+22.6. Argumentation from Ends and Means
+22.6.1. Variant 1
+Premise 1: x is the means to the end y.
+Premise 2: y is good (bad).
+Conclusion: x is good/less bad (bad).
+
+22.6.2. Variant 2
+Premise 1: Means x should be regarded as an end (end x should be regarded as a means).
+Premise 2: Ends are more important than the means used to achieve them.
+Conclusion: x should (should not) be regarded as highly important.
+
+22.6.3. Variant 3
+Premise 1: x is the means to the end y.
+Premise 2: x is easy (not easy) to achieve.
+Conclusion: y is good (bad).
+
+23. Two-Person Practical Reasoning
+Premise 1: X intends to realize A, and tells Y this.
+Premise 2: As Y sees the situation, B is a necessary (sufficient) condition for carrying out A, and Y tells X this.
+Conclusion: Therefore, X should carry out B, unless he has better reasons not to.
+
+24. Argument from Waste
+Premise 1: If a stops trying to realize A now, all a's previous efforts to realize A will be wasted.
+Premise 2: If all a's previous attempts to realize A are wasted, that would be a bad thing.
+Conclusion: Therefore, a ought to continue trying to realize A.
+
+25. Argument from Sunk Costs
+t1: Time of the proponent's commitment to a certain action (pre-commitment)
+t2: Time of proponent's confrontation with the decision whether carry out the pre-commitment or not.
+Premise 1: There is a choice at t2 between A and not-A.
+Premise 2: At t2 I am precommitted to A because of what I did or committed myself to at t1.
+Conclusion: Therefore, I should choose A.
+
+26. Argument from Ignorance
+Major Premise: If A were true, then A would be known to be true.
+Minor Premise: It is not the case that A is known to be true.
+Conclusion: Therefore, A is not true.
+
+26.1. Negative Reasoning from Normal Expectations
+Major Premise: If the situation were normal, A would be true.
+Minor Premise: It is not the case that A is true.
+Conclusion: Therefore, the situation is not normal.
+
+26.2. Negative Practical Reasoning
+Premise 1: I do not know whether A is true or not.
+Premise 2: I have to act on the presumption that A is true or not true.
+Premise 3: If I act on the presumption that A is true, and A is not true, consequences B will follow.
+Premise 4: If I act on the presumption that A is not true, and A is true, consequences C will follow.
+Premise 5: Consequences B (C) are more serious than consequences C (B).
+Conclusion: Therefore, I act on the presumption that A is not true (true).
+
+27. Epistemic Argument from Ignorance
+Premise 1: It has not been established that all the true propositions in D are contained in K.
+Premise 2: A is a special type of proposition such that if A were true, A would normally or usually be expected to be in K.
+Premise 3: A is in D.
+Premise 4: A is not in K.
+Premise 5: For all A in D, A is either true or false.
+Conclusion: Therefore, it is plausible to presume that A is false (subject to further investigations in D).
+
+28. Argument from Cause to Effect
+Major Premise: Generally, if A occurs, then B will (might) occur.
+Minor Premise: In this case, A occurs (might occur).
+Conclusion: Therefore, in this case, B will (might) occur.
+
+29. Argument from Correlation to Cause
+Premise: There is a positive correlation between A and B.
+Conclusion: Therefore, A causes B.
+
+30. Argument from Sign
+Specific Premise: A (a finding) is true in this situation.
+General Premise: B is generally indicated as true when its sign, A, is true.
+Conclusion: B is true in this situation.
+
+31. Abductive Argumentation Scheme
+31.1. Backward Argumentation Scheme
+Premise 1: D is a set of data or supposed facts in a case.
+Premise 2: Each one of a set of accounts A1, A2, ..., An is successful in explaining D.
+Premise 3: Ai is the account that explains D most successfully.
+Conclusion: Therefore, Ai is the most plausible hypothesis in the case.
+
+31.2. Forward Argumentation Scheme
+Premise 1: D is a set of data or supposed facts in a case.
+Premise 2: There is a set of argument diagrams G1, G2, ..., Gn, and in each argument diagram D represents premises of an argument that, supplemented by plausible conditionals and other statements that function as missing parts of enthymemes, leads to a respective conclusion C1, C2, ..., Cn.
+Premise 3: The most plausible (strongest) argument is represented by Gi.
+Conclusion: Therefore, Ci is the most plausible conclusion in the case.
+
+31.3. Abductive Scheme for Argument from Action to Character
+Premise: Agent a did something that can be classified as fitting a particular character quality.
+Conclusion: Therefore, a has this character quality.
+
+31.4. Scheme for Argument from Character to Action (Predictive)
+Premise: Agent a has a character quality of a kind that has been defined.
+Conclusion: Therefore, if a carries out some action in the future, this action is likely to be classifiable as fitting under that character quality.
+
+31.5. Retroductive Scheme for Identifying an Agent from a Past Action
+Factual Premise: An observed event appears to have been brought about by some agent a.
+Character Premise: The bringing about of this event fits a certain character quality Q.
+Agent Trait Premise: a has Q.
+Conclusion: a brought about the event in question.
+
+32. Argument from Evidence to a Hypothesis
+32.1. Argument from Verification
+Major Premise: If A (a hypothesis) is true, then B (a proposition reporting an event) will be observed to be true.
+Minor Premise: B has been observed to be true, in a given instance.
+Conclusion: Therefore, A is true.
+
+32.2. Argument from Falsification
+Major Premise: If A (a hypothesis) is true, then B (a proposition reporting an event) will be observed to be true.
+Minor Premise: B has been observed to be false, in a given instance.
+Conclusion: Therefore, A is false.
+
+33. Argument from Consequences
+33.1. Argument from Positive Consequences
+Premise: If A is brought about, good consequences will plausibly occur.
+Conclusion: Therefore, A should be brought about.
+
+33.2. Argument from Negative Consequences
+Premise: If A is brought about, then bad consequences will occur.
+Conclusion: Therefore, A should not be brought about.
+
+33.3. Reasoning from Negative Consequences
+Premise 1: If I (an agent) bring about (don't bring about) A, then B will occur.
+Premise 2: B is a bad outcome (from the point of view of my goals).
+Conclusion: Therefore, I should not (practically speaking) bring about A.
+
+33.4. Argument from Negative Consequences (Prudential Inference)
+Premise 1: You were considering not doing A.
+Premise 2: But, if you do not do A, some consequence B, which will be very bad for you, will occur, or is likely to occur.
+Conclusion: Therefore, you ought to reconsider and (other things being equal) you ought (prudentially) to do A.
+
+34. Pragmatic Argument from Alternatives
+Premise 1: Either you (the respondent) must bring about A, or B will occur.
+Premise 2: B is bad or undesirable, from your point of view.
+Conclusion: Therefore, you should (ought to, practically speaking) bring about A.
+
+35. Argument from Threat
+Premise 1: If you bring about A, some cited bad consequences, B, will follow.
+Premise 2: I am in position to bring about B.
+Premise 3: I hereby assert that in fact I will see to it that B occurs if you bring about A.
+Conclusion: Therefore, you had better not bring about A.
+
+35.1. Argument from Disjunctive Ad Baculum Threat
+Premise 1: You (the respondent) must bring about A, or I (the proponent) will undertake to see to it that B will occur.
+Premise 2: B is bad or undesirable, from your point of view.
+Conclusion: Therefore, you should (ought to, practically speaking) bring about A.
+
+36. Argument from Fear Appeal
+Premise 1: If you do not bring about A, then D will occur.
+Premise 2: D is very bad for you.
+Premise 3: Therefore, you ought to prevent D if possible.
+Premise 4: But the only way for you to prevent D is bring about A.
+Conclusion: Therefore, you ought to bring about A.
+
+37. Argument from Danger Appeal
+Premise 1: If you (the respondent) bring about A, then B will occur.
+Premise 2: B is a danger to you.
+Conclusion: Therefore (on balance) you should not bring about A.
+
+38. Argument from Need for Help
+Premise 1: For all x and y, y ought to help x, if x is in a situation where x needs help, and y can help, and y's giving help would not be too costly for y.
+Premise 2: x is in a situation where some action A by y would help x.
+Premise 3: y can carry out A.
+Premise 4: y's carrying out A would not be too costly for y.
+Conclusion: Therefore, y ought to carry out A.
+
+39. Argument from Distress
+Premise 1: Individual x is in distress (is suffering).
+Premise 2: If y brings about A, it will relieve or help to relieve this distress.
+Conclusion: Therefore, y ought to bring about A.
+
+40. Argument from Commitment
+Version 1
+Commitment Evidence Premise: In this case it was shown that a is committed to proposition A, according to the evidence of what he said or did.
+Linkage of Commitments Premise: Generally, when an arguer is committed to A, it can be inferred that he is also committed to B.
+Conclusion: In this case, a is committed to B.
+
+Version 2
+Major Premise: If arguer a has committed herself to proposition A at some point in a dialogue, then it may be inferred that she is also committed to proposition B, should the question of whether B is true become an issue later in the dialogue.
+Minor Premise: Arguer a has committed herself to proposition A at some point in a dialogue.
+Conclusion: At some later point in the dialogue, where the issue of B arises, arguer a may be said to be committed to proposition B.
+
+41. Ethotic Argument
+Major Premise: If x is a person of good (bad) moral character, then what x says should be accepted as more plausible (rejected as less plausible).
+Minor Premise: a is a person of good (bad) moral character.
+Conclusion: Therefore, what x says should be accepted as more plausible (rejected as less plausible).
+
+42. Generic Ad Hominem
+Character Attack Premise: a is a person of bad character.
+Conclusion: a's argument α should not be accepted.
+
+43. Pragmatic Inconsistency
+Premise: a advocates argument α, which has proposition A as its conclusion.
+Premise: a has carried out an action, or set of actions, that imply that a is personally committed to ¬A (the opposite, or negation of A).
+Conclusion: Therefore, a's argument α should not be accepted.
+
+44. Argument from Inconsistent Commitment
+Initial Commitment Premise: a has claimed or indicated that he is committed to proposition A.
+Opposed Commitment Premise: Other evidence in this particular case shows that a is not really committed to A.
+Conclusion: a's commitments are inconsistent.
+
+45. Circumstantial Ad Hominem
+Argument Premise: a advocates argument α, which has proposition A as its conclusion.
+Inconsistent Commitment Premise: a is personally committed to the opposite (negation) of A, as shown by commitments expressed in her/his personal actions or personal circumstances expressing such commitments.
+Credibility Questioning Premise: a's credibility as a sincere person who believes in his own argument has been put into question.
+Conclusion: The plausibility of a's argument α is decreased or destroyed.
+
+46. Argument from Bias
+Major Premise: If x is biased, then x is less likely to have taken the evidence on both sides into account in arriving at conclusion A.
+Minor Premise: Arguer a is biased.
+Conclusion: Arguer a is less likely to have taken the evidence on both sides into account in arriving at conclusion A.
+
+47. Bias Ad Hominem
+Premise 1: Person a, the proponent of argument α, is biased.
+Premise 2: Person a's bias is a failure to honestly take part in a type of dialogue D, that α is part of.
+Premise 3: Therefore, a is a morally bad person.
+Conclusion: Therefore, α should not be given as much credibility as it would have without the bias.
+
+48. Argument from Gradualism
+Premise 1: Proposition A is true (acceptable to the respondent).
+Premise 2: There is an intervening sequence of propositions, B1, B2, ..., Bn−1, Bn, C, such that the following conditionals are true: If A, then B1; if B1, then B2...; if Bn−1, then Bn; if Bn, then C.
+Premise 3: The conditional "If A, than C" is not, by itself, acceptable to the respondent, nor are shorter sequences from A to C acceptable to the respondent.
+Conclusion: Therefore, the proposition C is true (acceptable to the respondent).
+
+49. Slippery Slope Argument
+First Step Premise: A0 is up for consideration as a proposal that seems initially like something that should be brought about.
+Recursive Premise: Bringing up A0 would plausibly lead to A1, which would in turn plausibly lead to A2, and so forth, through the sequence A2, ..., An.
+Bad Outcome Premise: An is a horrible (disastrous, bad) outcome.
+Conclusion: A0 should not be brought about.
+
+50. Precedent Slippery Slope Argument
+Claim to Exceptional Status Premise: Case C0 is claimed to be an exception to the rule R.
+Related Cases Premise: Case C0 is similar to case C1, that is, if C0 is held to be an exception, then C1 must be held to be an exception too. A sequence of similar pairs of cases binds us by case-to-case consistency to the series C0, C1, ..., Cn.
+Intolerable Outcome Premise: Treating case C0 as an exception to the rule R would be intolerable.
+Conclusion: Case C0 cannot be judged to be an exception to the rule.
+
+51. Sorites Slippery Slope Argument
+Initial Base Premise: It is clearly beyond contention that ak has P.
+General Inductive Premise: If ak has P, then ak−1 has P.
+Reapplication Sequence: A sequence of modus ponens subarguments, a premise set linking premises and conclusions from the clear area through the grey area.
+Conclusion: ai may have P, for all we know (or can prove).
+
+52. Verbal Slippery Slope Argument
+Premise 1: Individual a1 has property F.
+Premise 2: If a1 has F, then a2 has F.
+Premise 3: Property F is vague, and so generally, if ai has F, then you can't deny that the next closely neighboring individual an has F.
+Premise 4: But quite clearly it is false that an has F.
+Conclusion: Therefore, you can't truly say that a1 has F.
+
+53. Full Slippery Slope Argument
+Initial Premise: Case C0 is tentatively acceptable as an initial presumption.
+Sequential Premise: There exists a series of cases C0, C1, ..., Cn−1, where each leads to the next by a combination of causal, precedent, and/or analogical steps.
+Group Opinion Premise: There is a climate of social opinion such that once people come to accept each step as plausible, then they will also be led to accept the next step.
+Conclusion: C0 is not acceptable (contrary to the presumption of the initial premise).
+
+54. Argument for Constitutive-Rule Claims
+54.1. Physical World Premise Version 1
+Premise: A W is a D.
+Warrant: Whenever expressions are referentially coextensive, they are synonymous.
+Conclusion: "W" means the same as "D."
+
+54.2. Physical World Premise Version 2
+Premise: In the official rulebook for I (a rule-governed institution), it is stated that D counts as W.
+Warrant: Official rulebooks correctly report the rules in force.
+Conclusion: D counts as W.
+
+54.3. Mental World Premise
+Premise: Speakers of L believe that "W" means the same as "D."
+Warrant: Speakers of a language are generally correct about word definitions in that language.
+Conclusion: "W" means the same as "D."
+
+55. Argument from Rules
+55.1. From Established Rule
+Major Premise: If carrying out types of actions including A is the established rule for x, then (unless the case is an exception), x must carry out A.
+Minor Premise: Carrying out types of actions including A is the established rule for a.
+Conclusion: Therefore, a must carry out A.
+
+55.2. From Rules
+Major Premise: If A is the case, then an evaluation E is justified/conduct C is required.
+Minor Premise: A is the case.
+Conclusion: Therefore, evaluation E is justified/conduct C is required.
+
+55.3. Regulative-Rule Premise Obligation Claim
+Premise: A is prohibited (obligatory).
+Warrant: One must not (must) do what is prohibited (obligatory).
+Conclusion: S must (must not) do A.
+
+56. Argument for an Exceptional Case
+Major Premise: If the case of x is an exception, then the established rule can be waived in the case of x.
+Minor Premise: The case of a is an exception.
+Conclusion: Therefore, the established rule can be waived in the case of a.
+
+57. Argument from Precedent
+Major Premise: Generally, according to the established rule, if x has property F, then x also has property G.
+Minor Premise: In this legitimate case, a has F but does not have G.
+Conclusion: Therefore, an exception to the rule must be recognized, and the rule appropriately modified or qualified.
+
+58. Argument from Plea for Excuse
+Premise 1: Normally, rule R requires or forbids a type of action or inaction T, which carries with it a sanction (penalty) S.
+Premise 2: I (the pleader) have committed T.
+Premise 3: But I can cite special circumstances that constitute an excuse, E.
+Conclusion: Therefore, in this instance, I ought to be exempted from S.
+
+59. Argument from Perception
+59.1. Argument from Perception
+Premise 1: Person P has a ϕ image (an image of a perceptible property).
+Premise 2: To have a ϕ image is a prima facie reason to believe that the circumstances exemplify ϕ.
+Conclusion: It is reasonable to believe that ϕ is the case.
+
+59.2. Argument from Appearance
+Premise: This object looks like it could be classified under verbal category C.
+Conclusion: Therefore, this object can be classified under verbal category C.
+
+60. Argument from Memory
+Premise 1: Person P recalls φ.
+Premise 2: Recalling φ is a prima facie reason to believe φ.
+Conclusion: It is reasonable to believe φ.
+
+61. Formal Fallacy
+A form of argument with a flaw in its logical structure, where it must have an invalid logical form and thus be unsound.
+
+62. Informal Fallacy
+A form of argument with a flaw in its content and context, not in its logical structure.
+
+## Reconstruction Guidelines Based on Reasoning Type
+
+After identifying the types of reasoning, formalize it by **adding a conditional** to ensure the reconstructed argument is deductively valid.
+
+### Example 1: 7 - Argument From Analogy
+
+Similarity Premise: Generally, case C1 is similar to case C2.
+Base Premise: A is true in case C1.
+**Conditional: If case C1 is similar to case C2 and A is true in case C1, then A is true in case C2.**
+Conclusion: A is true in case C2.
+
+### Example 2: 28 - Argument From Cause To Effect
+
+Major Premise: Generally, if A occurs, then B will occur.
+Minor Premise: In this case, A occurs.
+**Conditional: If A occurs in this case and generally if A occurs then B will occur, then B will occur in this case.**
+Conclusion: Therefore, in this case, B will occur.
+
+### Example 3: 31.1 - Abductive Argumentation Scheme; Backward Argumentation Scheme
+
+Premise 1: D is a set of data or supposed facts in a case.
+Premise 2: Each one of a set of accounts A1, A2, …, An is successful in explaining D.
+Premise 3: Ai is the account that explains D most successfully.
+**Conditional: If D, each one of a set of accounts A1, A2, …, An is successful in explaining D, and Ai is the account that explains D most successfully, then Ai is the most plausible hypothesis in the case.**
+Conclusion: Therefore, Ai is the most plausible hypothesis in the case.
+
+If the argument includes a formal fallacy, then you could formalize it according to the given specific type of formal fallacy. **Note that do not add a conditional to make the reconstructed argument deductively valid.**
+
+If the argument includes a informal fallacy, then you could formalize it according to the given specific type of informal fallacy. **Note that add a conditional to make the reconstructed argument deductively valid.**
+
+
+Your output should be composed of two parts: argument reconstruction and its formalization. 
+ - In the first part, list premises, intermediate conclusions, and the conclusion.
+ - In the second part, first define variables and/or predicates, then formalize premises, intermediate conclusions, and a conclusion.
+The output format should be as follows.
+
+# Argument Reconstruction
+
+## Premises
+[list of explicit and implicit premises]
+
+## Intermediate Conclusions
+[list of intermediate conclusions (if intermediate conclusions are not needed, then write "None".)]
+
+## Conclusion
+[a conclusion]
+
+# Formalized Argument
+
+## Defined Variables/Predicates
+[definition of each variable and/or predicate]
+
+## Formalized Premises
+[formalization of premises using definition]
+
+## Formalized Intermediate Conclusions
+[formalization of intermediate conclusions using definition (if intermediate conclusions are not needed, then write "None".)]
+
+## Formalized Conclusion
+[formalization of conclusion using definition]

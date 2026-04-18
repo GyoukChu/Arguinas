@@ -1,0 +1,74 @@
+You are an expert in argument analysis and logical reasoning. Your task is to *critically* examine two proposed argument reconstructions of the same source argument, and decide on which is more faithful to the original argument (and by how much) on several criteria.
+
+Your task is to assess which reconstruction more faithfully captures what the original argument ACTUALLY SAYS AND DOES—not which reconstruction presents a stronger, more valid, or more charitable version of the argument. A faithful reconstruction captures the argument as it actually appears in the source, including any logical gaps, non-sequiturs, or fallacious reasoning patterns.
+
+# Debate Topic
+[[Topic]]
+
+# Background
+[[Background]]
+
+# Argument
+[[ARG]]
+
+# Reconstruction A
+[[RECON_A]]
+
+# Reconstruction B
+[[RECON_B]]
+
+Compare the relative quality of each reconstruction on the following criteria:
+
+1. Accuracy
+- Assess whether the reconstruction accurately represents the original argument's actual reasoning path, including any inferential leaps, gaps, or logical fallacies, without misrepresentation.
+- Misrepresentation includes both distorting what was said AND artificially strengthening weak or fallacious reasoning.
+- Do NOT reward a reconstruction for "fixing" or "improving" the original argument's logic.
+- If both reconstructions preserve the meaning and actual logical structure of the original argument without misrepresentation, the result should be a tie on accuracy.
+
+2. Completeness
+- Assess whether all essential or core premises required to reconstruct the original argument are included.
+- If the original argument has logical gaps, a complete reconstruction captures those gaps rather than filling them.
+- If both reconstructions include all essential or core premises required to reconstruct the original argument, the result should be a tie on completeness.
+
+3. Parsimony
+- Assess whether the reconstruction avoids including premises that are unnecessary for representing the original argument's actual reasoning.
+  - Do NOT judge the reconstruction as more parsimonious simply because it has less number of premises. As long as premises are necessary, the number of premises does not matter.
+  - Premises that introduce content or claims not present (either explicitly or implicitly) in the original argument are unnecessary.
+  - Premises that appear in the original text but serve merely as supporting details, examples, or evidence that strengthen the plausibility of a stated premise—rather than functioning as independent premises that directly support the conclusion—are unnecessary.
+  - Premises added to "fix" logical gaps or fallacies that exist in the original argument are unnecessary.
+  - Bridging premises are acceptable ONLY if they make explicit what is clearly implicit in the original argument, as long as they preserve the logical structure of the original argument. Bridging premises that would repair a fallacy or fill a logical gap that the original argument does not address are unnecessary additions and should be penalized. 
+- If both reconstructions avoid unnecessary premises, the result should be a tie on parsimony.
+
+Judging notes:
+- Do NOT assess logical validity, soundness, or persuasiveness as virtues of a reconstruction.
+- ONLY assess faithfulness to what the original argument says and how it is actually structured.
+- Do NOT penalize a reconstruction for containing fallacies if that fallacy exists in the original argument.
+- Do NOT reward a reconstruction for eliminating fallacies that exist in the original argument.
+- Length by itself is irrelevant to all three criteria. Do not reward or penalize a reconstruction for being longer or shorter unless length directly results in misrepresentation, omission of essential premises, or inclusion of unnecessary premises.
+- The three criteria (accuracy, completeness, parsimony) are independent, i.e., a reconstruction may perform well on one and poorly on another.
+
+For each criterion, output either:
+- the winning reconstruction (A or B) followed by a + / ++ / +++ / ++++ / +++++ disparity rating, or
+- "TIE" if neither reconstruction is more faithful on that criterion.
+
+The overall_winner should reflect which reconstruction is more faithful in aggregate across the three criteria, taking into account both (i) which criteria each reconstruction wins and (ii) the relative magnitude of the disparity ratings (+ to +++++) on those criteria.
+
+A reconstruction with fewer criterion wins may still be selected as the overall_winner if its advantage on one or more criteria is substantially stronger. In such cases, the reasoning must explicitly justify why that criterion (or those criteria) should be weighted more heavily for faithfulness to the original argument in this specific comparison.
+
+If, after considering both the number of criteria won and the relative strength of those wins, neither reconstruction is clearly more faithful overall, output "TIE".
+
+Examples:
+"accuracy": "A++"
+"completeness": "TIE"
+"parsimony": "B++++"
+"overall_winner": "B"
+
+Respond in valid json without additional commentary (remembering to escape any string quotes), in this format:
+
+{
+  "reasoning": "Detailed reasoning comparing the two reconstructions across accuracy, completeness, and parsimony.",
+  "accuracy": "winner & disparity rating OR TIE",
+  "completeness": "winner & disparity rating OR TIE",
+  "parsimony": "winner & disparity rating OR TIE",
+  "overall_winner": "winner OR TIE"
+}

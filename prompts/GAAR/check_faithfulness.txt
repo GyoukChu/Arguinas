@@ -1,0 +1,35 @@
+# Debate Topic
+[[Topic]]
+
+# Background
+[[Background]]
+
+# Argument
+[[ARG]]
+
+# Argument Reconstruction
+## Premises
+[[PREMISES]]
+
+## Conclusion
+[[CONCLUSION]]
+
+For an argument from the debate, its reconstruction as a premise-conclusion structure is given. Note that the argument is [[ARG_TYPE]]. Your task is to judge whether the construction is faithful or not. You should judge the faithfulness according to the following three criteria:
+ - **Accuracy & Charity.** The reconstruction should keep the author’s intended meaning while eliminating irrelevancies—i.e., obey the principle of charity and prefer the strongest sensible reading of ambiguous passages.
+   - If a premise expresses or entails a universal quantifier, determine whether the universal quantifier was used as intended in the original argument, or whether the universal quantifier over-generalized the premise beyond the original argument's intent.
+     - Definition of "universal quantifier": A universal quantifier is a logical operator that expresses a predicate is true for every member of a universe of discourse. It is symbolized as ∀, or expressed through words like 'for all x', 'every', 'any', etc. This should be distinguished from statements that are merely "universal" in nature; that is, general or broadly applicable statements that lack explicit universal quantifiers.
+     - First, determine if a universal quantifier is actually present by definition.
+     - When evaluating over-generalization: If a universal quantifier is used in a way that over-generalizes **beyond the original argument's intent**, then the premise must be made more specific. For example, suppose the reconstructed premises are "Person P has property A.", "For all x, if x has property A, then x has property B.", and "Therefore, Person P has property B." However, the original argument may only intend to claim that Person P having property A leads to Person P having property B. So, the reconstruction is not faithful and should be revised to be specific: "If Person P has property A, then Person P has property B.", without the universal quantifier.
+ - **Completeness.** All explicit premises, the main conclusion, and any indispensable implicit premises must be included.
+ - **Parsimony.** The reconstruction must avoid including unnecessary premises.
+   - Premises that introduce content not present in the original argument or that serve as supporting examples (rather than independent premises) are unnecessary and should be excluded, but bridging premises needed to make the logical structure explicit are necessary and should be retained.
+
+Do not include logical validity while judging the faithfulness, especially if the argument is formally fallacious.
+
+The output format should be as follows.
+
+# Reasoning
+[Explain step-by-step]
+
+# Faithfulness
+[Yes or No]

@@ -1,0 +1,65 @@
+# Debate Topic
+[[Topic]]
+
+# Background
+[[Background]]
+
+# Argument
+[[ARG]]
+
+You are given a debate topic, background information, and an argument from that debate topic. Your task is to analyze the argument and determine whether it contains a formal fallacy, an informal fallacy, both, or neither.
+
+## Definitions
+
+**Formal Fallacy**: An argument with a flaw in its logical structure. The argument has an invalid logical form, making it deductively unsound regardless of the truth of its premises. Examples include (but not limited to):
+- Affirming the consequent
+- Denying the antecedent
+- Undistributed middle
+- Illicit major/minor
+- Affirming a disjunct
+- Denying a conjunct
+- Quantifier shift
+- Existential fallacy
+- Fallacy of the inverse/converse
+
+**Informal Fallacy**: An argument with a flaw in its content, context, or reasoning process rather than its logical structure. The error lies in relevance or ambiguity. Examples include (but not limited to):
+- Ad hominem
+- Straw man
+- Slippery slope
+- Appeal to authority/emotion/ignorance
+- False dilemma
+- Hasty generalization
+- Post hoc ergo propter hoc
+- Red herring
+- Tu quoque
+- Bandwagon
+- Loaded language
+- Oversimplification
+
+## Instructions
+
+1. Carefully read the argument in context of the debate topic and background.
+2. Identify the premises and conclusion of the argument.
+3. Check if the logical form/structure is valid (formal analysis).
+4. Check if the content and reasoning have some flaw (informal analysis).
+- Flag an informal fallacy ONLY if the flaw is CRITICAL. Consider the following:
+  - Not every imperfection is a fallacy. Real-world arguments may rely on inductive reasoning, which by nature does not guarantee certainty. This alone does not constitute a fallacy. For example, If the argument provides multiple relevant examples or credible data points that reasonably support the conclusion, it should NOT be flagged as hasty generalization.
+  - Apply the principle of charity. Interpret the argument in its strongest reasonable form before judging it as fallacious.
+
+
+The output format should be as follows.
+
+# Reasoning
+[Explain step-by-step]
+
+# Formal Fallacy
+[Yes or No]
+
+## Rationale of Formal Fallacy
+[Explain why formal fallacy occurs (if No, then write "None")]
+
+# Informal Fallacy
+[Yes or No]
+
+## Rationale of Informal Fallacy
+[Explain why informal fallacy occurs (if No, then write "None")]

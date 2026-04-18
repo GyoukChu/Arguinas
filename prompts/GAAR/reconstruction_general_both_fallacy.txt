@@ -1,0 +1,63 @@
+# Debate Topic
+[[Topic]]
+
+# Background
+[[Background]]
+
+# Argument
+[[ARG]]
+
+# Rationale of Formal Fallacy
+[[RATIONALE_FORMAL]]
+
+# Rationale of Informal Fallacy
+[[RATIONALE_INFORMAL]]
+
+You are given a debate topic, background information, an argument including both formal fallacy and informal fallacy from that debate topic, a rationale of the formal fallacy, and a rationale of the informal fallacy. First, identify what type(s) of reasoning this argument uses from the six types listed below. Note that the argument may contain multiple types of reasoning. Then reconstruct the argument with a premise-conclusion structure. If the debate topic has clear pro/con positions, determine the conclusion by taking either a positive or negative stance. Add implicit premises and intermediate conclusions if needed.
+
+## Reasoning Types
+
+- Deductive Reasoning: A form of argument where the truth of the premises necessitates the truth of the conclusion: the conclusion cannot but be true if the premises are true.
+- Inductive Reasoning: A form of ampliative argument where observations about past instances and regularities lead to generalizations about future instances and universal principles.
+- Analogical Reasoning: A form of argument based on similarity relations, where if the source domain and target domain are similar in certain known respects, and the source domain possesses a further feature, then the target domain is inferred to also have that feature or a similar counterpart.
+- Abductive Reasoning: A form of ampliative argument that involves inference to the best explanation, where a conclusion is drawn as to what could plausibly explain the occurrence of observed facts.
+- Formal Fallacy: A form of argument with a flaw in its logical structure, where it must have an invalid logical form and thus be unsound.
+- Informal Fallacy: A form of argument with a flaw in its content and context, not in its logical structure.
+
+## Reconstruction Guidelines Based on Reasoning Type
+
+- If the argument includes an inductive reasoning, then you could formalize it by listing all the evidences as premises and adding a conditional to ensure the reconstructed argument is deductively valid (e.g., Premise_1: Evidence_1; Premise_2: Evidence_2; ...; Premise_N: Evidence_N; **Premise_N+1: If Evidence_1, Evidence_2, ..., and Evidence_N, then Generalization;** Conclusion: Generalization).
+- If the argument includes an analogical reasoning, then you could formalize it by listing all the common properties as premises and adding a conditional to ensure the reconstructed argument is deductively valid (e.g., Premise_1: Source S has a property P₁; Premise_2: Target T has a property P₁* equal or similar to P₁; Premise_3: Source S has a property P₂; Premise_4: Target T has a property P₂* equal or similar to P₂; ...; Premise_(2N-1): Source S has a property Pₙ; Premise_2N: Target T has a property Pₙ* equal or similar to Pₙ; Premise_(2N+1): Source S has a property Q; **Premise_(2N+2): If source S has properties P₁, P₂, ..., Pₙ, target T has properties P₁*, P₂*, ..., Pₙ*, and source S has a property Q, then target T has a property Q* equal or similar to Q;** Conclusion: Target T has a property Q* equal or similar to Q).
+- If the argument includes an abductive reasoning, then you could formalize it by listing all the observations and explanation as premises and adding a conditional to ensure the reconstructed argument is deductively valid (e.g., Premise_1: Observation_1; Premise_2: Observation_2; ...; Premise_N: Observation_N; Premise_N+1: Explanation H explains Observation_1, Observation_2, ..., and Observation_N; **Premise_N+2: If Observation_1, Observation_2, ..., and Observation_N, and (Explanation H explains Observation_1, Observation_2, ..., and Observation_N), then Explanation H is True;** Conclusion: Explanation H is True).
+- If the argument includes a formal fallacy, then you could formalize it according to the given specific type of formal fallacy. **Note that do not add a conditional to make the reconstructed argument deductively valid.**
+- If the argument includes a informal fallacy, then you could formalize it according to the given specific type of informal fallacy. **Note that add a conditional to make the reconstructed argument deductively valid.**
+
+Your output should be composed of two parts: argument reconstruction and its formalization. 
+ - In the first part, list premises, intermediate conclusions, and the conclusion.
+ - In the second part, first define variables and/or predicates, then formalize premises, intermediate conclusions, and a conclusion.
+The output format should be as follows.
+
+# Argument Reconstruction
+
+## Premises
+[list of explicit and implicit premises]
+
+## Intermediate Conclusions
+[list of intermediate conclusions (if intermediate conclusions are not needed, then write "None".)]
+
+## Conclusion
+[a conclusion]
+
+# Formalized Argument
+
+## Defined Variables/Predicates
+[definition of each variable and/or predicate]
+
+## Formalized Premises
+[formalization of premises using definition]
+
+## Formalized Intermediate Conclusions
+[formalization of intermediate conclusions using definition (if intermediate conclusions are not needed, then write "None".)]
+
+## Formalized Conclusion
+[formalization of conclusion using definition]

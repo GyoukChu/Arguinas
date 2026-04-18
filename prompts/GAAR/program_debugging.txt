@@ -1,0 +1,12 @@
+When I execute the python program, I got the following error:
+[[ERROR]]
+
+Fix the error and generate a revised python program. Your response format should be as follows.
+
+### Reasoning
+[explain why and how to fix the program]
+
+### Revised Python Program
+```python
+[a python program]
+```

@@ -1,0 +1,5 @@
+openai==2.32.0
+anthropic==0.96.0
+z3-solver==4.16.0.0
+tqdm
+python-dotenv==1.0.1
