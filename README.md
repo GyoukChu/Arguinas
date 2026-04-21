@@ -1,6 +1,6 @@
 # Argument Reconstruction as Supervision for Critical Thinking in LLMs
 
-[![arXiv](https://img.shields.io/badge/Paper-arXiv:2603.17432-Green)](https://arxiv.org/abs/2603.17432)  [![BibTex](https://img.shields.io/badge/Paper-BibTex-yellow)](#bibtex)
+[![arXiv](https://img.shields.io/badge/Paper-arXiv:2603.17432-Green)](https://arxiv.org/abs/2603.17432)  [![BibTex](https://img.shields.io/badge/Paper-BibTex-yellow)](#bibtex)  [![HuggingFace](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E)](https://huggingface.co/datasets/ChuGyouk/Arguinas)
 
 Implementation of **GAAR** (**G**eneralized **A**utomatic **A**rgument **R**econstruction) and **Arguinas** (**Argu**ment reconstruct**i**o**n**) dat**a**set as presented in our paper:  
 [**Argument Reconstruction as Supervision for Critical Thinking in LLMs**](https://arxiv.org/abs/2603.17432)  
@@ -105,6 +105,7 @@ Two reconstruction variants are provided:
 
 Toggle between them with the `--use_general_reconstruction` / `--use_specific_reconstruction` flags.
 
+<a id="bibtex"></a>
 ## 📚 BibTeX
 If you find this repo useful for your research, please consider citing us:
 
