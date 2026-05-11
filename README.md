@@ -14,7 +14,7 @@ by Hyun Ryu<sup>\*1,2</sup>, Gyouk Chu<sup>\*2</sup>, Gregor Betz<sup>3</sup>, E
 ---
 
 ## 🔔 Updates
-- [✔] (25.04.21) The code implementation of GAAR and Arguinas dataset are out.
+- [✔] (26.04.21) The code implementation of GAAR and Arguinas dataset are out.
 - [✔] (26.03.18) Paper is out! [here](https://arxiv.org/abs/2603.17432) 
 
 --- 
