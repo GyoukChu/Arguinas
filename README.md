@@ -1,11 +1,15 @@
 # Argument Reconstruction as Supervision for Critical Thinking in LLMs
 
-[![arXiv](https://img.shields.io/badge/Paper-arXiv:2603.17432-Green)](https://arxiv.org/abs/2603.17432)  [![BibTex](https://img.shields.io/badge/Paper-BibTex-yellow)](#bibtex)  [![HuggingFace](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E)](https://huggingface.co/datasets/ChuGyouk/Arguinas)
+[![arXiv](https://img.shields.io/badge/Paper-arXiv:2603.17432-Green)](https://arxiv.org/abs/2603.17432)  [![BibTex](https://img.shields.io/badge/Paper-BibTex-yellow)](#bibtex)  [![HuggingFace](https://img.shields.io/badge/Collection-HuggingFace-FFD21E)](https://huggingface.co/collections/ChuGyouk/arguinas)
 
 Implementation of **GAAR** (**G**eneralized **A**utomatic **A**rgument **R**econstruction) and **Arguinas** (**Argu**ment reconstruct**i**o**n**) dat**a**set as presented in our paper:  
 [**Argument Reconstruction as Supervision for Critical Thinking in LLMs**](https://arxiv.org/abs/2603.17432)  
 by Hyun Ryu<sup>\*1,2</sup>, Gyouk Chu<sup>\*2</sup>, Gregor Betz<sup>3</sup>, Eunho Yang<sup>2</sup>, Carolyn Rosé<sup>†1</sup>, and Sean Welleck<sup>†1</sup>  
 <sup>1</sup>Language Technologies Institute, Carnegie Mellon University &nbsp;&nbsp; <sup>2</sup>Graduate School of AI, Korea Advanced Institute of Science & Technology &nbsp;&nbsp; <sup>3</sup>Department of Philosophy, Karlsruhe Institute of Technology &nbsp;&nbsp; <sup>\*</sup>Equal Contribution  &nbsp;&nbsp; <sup>†</sup>Equal Advising
+
+<p align="center">
+  <img src="assets/fig_argrecon_horizontal_v2_github.png" alt="Argument Reconstruction" width="90%" />
+</p>
 
 <p align="center">
   <img src="assets/gaar_engine_github.png" alt="GAAR" width="90%" />
@@ -14,10 +18,16 @@ by Hyun Ryu<sup>\*1,2</sup>, Gyouk Chu<sup>\*2</sup>, Gregor Betz<sup>3</sup>, E
 ---
 
 ## 🔔 Updates
+- [✔] (26.05.21) The fine-tuned model from Qwen3-4B-Base/Instruct and Qwen3-8B-Base have been released.
 - [✔] (26.04.21) The code implementation of GAAR and Arguinas dataset are out.
 - [✔] (26.03.18) Paper is out! [here](https://arxiv.org/abs/2603.17432) 
 
 --- 
+
+## 🏆 Model & Data
+
+All released models and datasets are gathered in our HuggingFace collection: [ChuGyouk/Arguinas](https://huggingface.co/collections/ChuGyouk/arguinas).
+
 
 ## 🔧 Environment Setup
 
