@@ -18,6 +18,8 @@ by Hyun Ryu<sup>\*1,2</sup>, Gyouk Chu<sup>\*2</sup>, Gregor Betz<sup>3</sup>, E
 ---
 
 ## 🔔 Updates
+
+- [✔] (26.11.13) **The paper is accepted by EACL 2027 (Findings)**!!
 - [✔] (26.05.21) The fine-tuned model from Qwen3-4B-Base/Instruct and Qwen3-8B-Base have been released.
 - [✔] (26.04.21) The code implementation of GAAR and Arguinas dataset are out.
 - [✔] (26.03.18) Paper is out! [here](https://arxiv.org/abs/2603.17432) 
